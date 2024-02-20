@@ -1,0 +1,156 @@
+@import url("../icons.css");
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins/Poppins-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+
+:root {
+  --font-sm: 0.93rem;
+  --font-p: 1rem;
+  --font-md: 1.25rem;
+  --font-h6: 1.33rem;
+  --font-h5: 1.78rem;
+  --font-h4: 2.37rem;
+  --font-h3: 3.16rem;
+  --font-h2: 4.21rem;
+  --font-h1: 5.61rem;
+
+  --color-prim: #588535;
+  --color-seco: #22271c;
+  --color-trn: rgb(110, 110, 110);
+  --color-white: white;
+  --color-body: #f6f6f6;
+}
+
+html {
+  font-family: Poppins, serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  font-family: inherit;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  color: var(--font-p);
+  background-color: var(--color-body);
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+a,
+a:hover,
+a:focus {
+  color: black;
+  text-decoration: none;
+  font-size: var(--font-p);
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  font-size: 15px;
+  color: var(--color-trn);
+}
+button,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+p {
+  font-size: var(--font-p);
+  line-height: 1.6;
+  margin: 0;
+}
+h1 {
+  font-size: var(--font-h1);
+  line-height: 1;
+  margin: 0px;
+}
+h2 {
+  font-size: var(--font-h2);
+  line-height: 150%;
+}
+h3 {
+  font-size: var(--font-h3);
+  line-height: 150%;
+}
+h4 {
+  font-size: var(--font-h4);
+  line-height: 150%;
+}
+h5 {
+  font-size: var(--font-h5);
+  line-height: 150%;
+}
+h6 {
+  font-size: var(--font-h6);
+  line-height: 150%;
+  margin: 0px;
+}
+.sub__title {
+  font-size: var(--font-p);
+  font-weight: 600;
+}
+.flex {
+  display: flex;
+}
+.flex-row {
+  align-items: center;
+  justify-content: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+  align-items: center;
+  place-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.py-20 {
+  padding-block: 30px;
+}
+.custom-container {
+  max-width: 1440px;
+  margin-inline: auto;
+  position: relative;
+}
+.gap-20 {
+  gap: 20px;
+}
+.btn__primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-size: var(--font-sm);
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn__primary:hover {
+  font-size: var(--font-sm);
+}
