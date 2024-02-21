@@ -2,12 +2,12 @@
 ?>
 <header class=" header py-20">
     <div class="custom-container">
-        <nav class="menu flex">
+        <nav class="menu d-flex">
             <div class="menu__logo">
                 <i class="gh-home"></i>
                 InPlant
             </div>
-            <ul class="menu__nav flex">
+            <ul class="menu__nav d-flex">
                 <li class="menu__item">
                     <a href="#" class="menu__link">Home</a>
                 </li>

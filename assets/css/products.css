@@ -1,0 +1,46 @@
+.products {
+  gap: 80px;
+}
+.products__tab-item {
+  padding: 10px 15px;
+  background: var(--color-white);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.products__tab-item.tab-active {
+  color: var(--color-white);
+  background-color: var(--color-prim);
+}
+.products__tab-panel {
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.products__plant-wrapper {
+  border: 2px solid var(--color-white);
+  border-radius: 10px;
+  position: relative;
+}
+.products__plant-img {
+  position: relative;
+  width: 300px;
+  aspect-ratio: 1;
+}
+.products__plant-img img {
+  position: absolute;
+  bottom: 0;
+}
+.products__plant-details {
+  background-color: var(--color-white);
+  padding: 10px;
+}
+.products__like-btn {
+  background-color: var(--color-white);
+  display: block;
+  padding: 10px;
+  border-radius: 50vh;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}

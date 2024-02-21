@@ -1,14 +1,14 @@
     <?php
     ?>
     <section class="banner">
-        <div class="custom-container flex flex-center">
-            <div class="banner__left flex flex-col gap-20">
+        <div class="custom-container d-flex flex-center">
+            <div class="banner__left d-flex flex-col gap-20">
                 <p class="sub__title">#ORNAMENTAL PLANT</p>
                 <h1 class="banner__title">Various Indoor Plant Shop</h1>
                 <p class="banner__desc">Lorem Ipsum is simply a dummy text of the printing and typesetting industry.
                     Lorem
                     Ipsum has been</p>
-                <div class="banner__cta flex gap-20">
+                <div class="banner__cta d-flex gap-20">
                     <a class="banner__cta-btn green-bg">Add To Cart</a>
                     <a class="banner__cta-btn white-bg">Learn More</a>
                 </div>
@@ -22,7 +22,7 @@
                 <i class="banner__circle-icon icon__one gh-pin"></i>
                 <i class="banner__circle-icon icon__two gh-pin"></i>
                 <i class="banner__circle-icon icon__three gh-pin"></i>
-                <div class="hover__reveal flex">
+                <div class="hover__reveal d-flex">
                     <i class="gh-pin"></i>
                     <div>
                         <h6 class="reveal__title">
@@ -32,83 +32,84 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
-    <section>
+    <section class="plant__slider">
         <div class="custom-container">
-            <div class="swiper products">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+            <div class="plant__slider">
+                <div class="swiper plants">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
 
-                        <div class="product__post">
-                            <div class="product__img-wrapper">
-                                <img class="product__fet-img" src="./assets/images/products/plant1.png" alt="Plant">
-                            </div>
-                            <div class="product__content flex flex-col">
-                                <span class="product__title clr-white"><b>Severin Candrian</b></span>
-                                <p class="product__desc"> Lorem ipsum is simply dummy text.</p>
-                                <span class="product__price clr-white"><b>$59.66</b></span>
-                                <a class="btn__primary add-to-cart">Add to cart</a>
+                            <div class="plant">
+                                <div class="plant__img-wrapper">
+                                    <img class="plant__fet-img" src="./assets/images/products/plant1.png" alt="Plant">
+                                </div>
+                                <div class="plant__content d-flex flex-col">
+                                    <span class="plant__title clr-white"><b>Severin Candrian</b></span>
+                                    <p class="plant__desc"> Lorem ipsum is simply dummy text.</p>
+                                    <span class="plant__price clr-white"><b>$59.66</b></span>
+                                    <a class="btn__primary add-to-cart">Add to cart</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="swiper-slide">
-                        <div class="product__post">
-                            <div class="product__img-wrapper">
-                                <img class="product__fet-img" src="./assets/images/products/plant2.png" alt="Plant">
-                            </div>
-                            <div class="product__content flex flex-col">
-                                <span class="product__title clr-white"><b>Severin Candrian</b></span>
-                                <p class="product__desc"> Lorem ipsum is simply dummy text.</p>
-                                <span class="product__price clr-white"><b>$59.66</b></span>
-                                <a class="btn__primary add-to-cart">Add to cart</a>
+                        <div class="swiper-slide">
+                            <div class="plant">
+                                <div class="plant__img-wrapper">
+                                    <img class="plant__fet-img" src="./assets/images/products/plant2.png" alt="Plant">
+                                </div>
+                                <div class="plant__content d-flex flex-col">
+                                    <span class="plant__title clr-white"><b>Severin Candrian</b></span>
+                                    <p class="plant__desc"> Lorem ipsum is simply dummy text.</p>
+                                    <span class="plant__price clr-white"><b>$59.66</b></span>
+                                    <a class="btn__primary add-to-cart">Add to cart</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="swiper-slide">
-                        <div class="product__post">
-                            <div class="product__img-wrapper">
-                                <img class="product__fet-img" src="./assets/images/products/plant3.png" alt="Plant">
-                            </div>
-                            <div class="product__content flex flex-col">
-                                <span class="product__title clr-white"><b>Severin Candrian</b></span>
-                                <p class="product__desc"> Lorem ipsum is simply dummy text.</p>
-                                <span class="product__price clr-white"><b>$59.66</b></span>
-                                <a class="btn__primary add-to-cart">Add to cart</a>
+                        <div class="swiper-slide">
+                            <div class="plant">
+                                <div class="plant__img-wrapper">
+                                    <img class="plant__fet-img" src="./assets/images/products/plant3.png" alt="Plant">
+                                </div>
+                                <div class="plant__content d-flex flex-col">
+                                    <span class="plant__title clr-white"><b>Severin Candrian</b></span>
+                                    <p class="plant__desc"> Lorem ipsum is simply dummy text.</p>
+                                    <span class="plant__price clr-white"><b>$59.66</b></span>
+                                    <a class="btn__primary add-to-cart">Add to cart</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="swiper-slide">
-                        <div class="product__post">
-                            <div class="product__img-wrapper">
-                                <img class="product__fet-img" src="./assets/images/products/plant4.png" alt="Plant">
-                            </div>
-                            <div class="product__content flex flex-col">
-                                <span class="product__title clr-white"><b>Severin Candrian</b></span>
-                                <p class="product__desc"> Lorem ipsum is simply dummy text.</p>
-                                <span class="product__price clr-white"><b>$59.66</b></span>
-                                <a class="btn__primary add-to-cart">Add to cart</a>
+                        <div class="swiper-slide">
+                            <div class="plant">
+                                <div class="plant__img-wrapper">
+                                    <img class="plant__fet-img" src="./assets/images/products/plant4.png" alt="Plant">
+                                </div>
+                                <div class="plant__content d-flex flex-col">
+                                    <span class="plant__title clr-white"><b>Severin Candrian</b></span>
+                                    <p class="plant__desc"> Lorem ipsum is simply dummy text.</p>
+                                    <span class="plant__price clr-white"><b>$59.66</b></span>
+                                    <a class="btn__primary add-to-cart">Add to cart</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="swiper-slide">
-                        <div class="product__post">
-                            <div class="product__img-wrapper">
-                                <img class="product__fet-img" src="./assets/images/products/plant5.png" alt="Plant">
-                            </div>
-                            <div class="product__content flex flex-col">
-                                <span class="product__title clr-white"><b>Severin Candrian</b></span>
-                                <p class="product__desc"> Lorem ipsum is simply dummy text.</p>
-                                <span class="product__price clr-white"><b>$59.66</b></span>
-                                <a class="btn__primary add-to-cart">Add to cart</a>
+                        <div class="swiper-slide">
+                            <div class="plant">
+                                <div class="plant__img-wrapper">
+                                    <img class="plant__fet-img" src="./assets/images/products/plant5.png" alt="Plant">
+                                </div>
+                                <div class="plant__content d-flex flex-col">
+                                    <span class="plant__title clr-white"><b>Severin Candrian</b></span>
+                                    <p class="plant__desc"> Lorem ipsum is simply dummy text.</p>
+                                    <span class="plant__price clr-white"><b>$59.66</b></span>
+                                    <a class="btn__primary add-to-cart">Add to cart</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
         </div>

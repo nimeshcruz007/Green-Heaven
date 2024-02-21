@@ -11,10 +11,13 @@
 </head>
 
 <body>
-    <?php include "./components/header/header.php" ?>
-    <?php include "./components/banner/banner.php" ?>
+    <main>
+        <?php include "./components/header/header.php" ?>
+        <?php include "./components/banner/banner.php" ?>
+        <?php include "./components/products/products.php" ?>
 
-    <?php include "./assets/script.php" ?>
+        <?php include "./assets/script.php" ?>
+    </main>
 </body>
 
 </html>
